@@ -14,8 +14,8 @@ export function Form(props) {
     <section>
       <h1>To Do List</h1>
       <form className="input_field" onSubmit={submit}>
-        <input type="text" name="task" id="textbox" />
         <button>Add task</button>
+        <input type="text" name="task" id="textbox" />
       </form>
     </section>
   );
